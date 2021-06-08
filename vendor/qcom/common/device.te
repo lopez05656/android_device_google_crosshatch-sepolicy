@@ -22,3 +22,5 @@ type ssd_block_device, dev_type;
 type ssr_device, dev_type;
 type wlan_device, dev_type;
 type xbl_block_device, dev_type;
+type spdaemon_ssr_device, dev_type;
+type sec_nvm_device, dev_type;

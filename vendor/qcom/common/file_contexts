@@ -264,3 +264,9 @@
 
 # vendor-provided system HAL
 /system/bin/hw/hardware\.google\.pixelstats@1\.0-service  u:object_r:pixelstats_system_exec:s0
+
+# spdaemon
+/(vendor|system/vendor)/bin/spdaemon            u:object_r:spdaemon_exec:s0
+# spdaemon and sec_nvm files
+/dev/spdaemon_ssr                               u:object_r:spdaemon_ssr_device:s0
+/dev/sec_nvm_.*                                 u:object_r:sec_nvm_device:s0
